@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B166C1D715ABD3E500D16A35 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B166C1D615ABD3E500D16A35 /* UIKit.framework */; };
+		B166C1D915ABD3E500D16A35 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B166C1D815ABD3E500D16A35 /* Foundation.framework */; };
+		B166C1DB15ABD3E500D16A35 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B166C1DA15ABD3E500D16A35 /* CoreGraphics.framework */; };
+		B166C1E115ABD3E500D16A35 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B166C1DF15ABD3E500D16A35 /* InfoPlist.strings */; };
+		B166C1E315ABD3E500D16A35 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B166C1E215ABD3E500D16A35 /* main.m */; };
+		B166C1E715ABD3E500D16A35 /* HappinessAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B166C1E615ABD3E500D16A35 /* HappinessAppDelegate.m */; };
+		B166C1EA15ABD3E500D16A35 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B166C1E815ABD3E500D16A35 /* MainStoryboard.storyboard */; };
+		B166C1ED15ABD3E500D16A35 /* HappinessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B166C1EC15ABD3E500D16A35 /* HappinessViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B166C1D215ABD3E500D16A35 /* Happiness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Happiness.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B166C1D615ABD3E500D16A35 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B166C1D815ABD3E500D16A35 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B166C1DA15ABD3E500D16A35 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B166C1DE15ABD3E500D16A35 /* Happiness-Info.plist */ = {isa = PBXFileReference; path = "Happiness-Info.plist"; sourceTree = "<group>"; };
+		B166C1E015ABD3E500D16A35 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B166C1E215ABD3E500D16A35 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B166C1E415ABD3E500D16A35 /* Happiness-Prefix.pch */ = {isa = PBXFileReference; path = "Happiness-Prefix.pch"; sourceTree = "<group>"; };
+		B166C1E515ABD3E500D16A35 /* HappinessAppDelegate.h */ = {isa = PBXFileReference; path = HappinessAppDelegate.h; sourceTree = "<group>"; };
+		B166C1E615ABD3E500D16A35 /* HappinessAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HappinessAppDelegate.m; sourceTree = "<group>"; };
+		B166C1E915ABD3E500D16A35 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		B166C1EB15ABD3E500D16A35 /* HappinessViewController.h */ = {isa = PBXFileReference; path = HappinessViewController.h; sourceTree = "<group>"; };
+		B166C1EC15ABD3E500D16A35 /* HappinessViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HappinessViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B166C1CF15ABD3E500D16A35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B166C1D715ABD3E500D16A35 /* UIKit.framework in Frameworks */,
+				B166C1D915ABD3E500D16A35 /* Foundation.framework in Frameworks */,
+				B166C1DB15ABD3E500D16A35 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B166C1C715ABD3E500D16A35 = {
+			isa = PBXGroup;
+			children = (
+				B166C1DC15ABD3E500D16A35 /* Happiness */,
+				B166C1D515ABD3E500D16A35 /* Frameworks */,
+				B166C1D315ABD3E500D16A35 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B166C1D315ABD3E500D16A35 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B166C1D215ABD3E500D16A35 /* Happiness.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B166C1D515ABD3E500D16A35 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B166C1D615ABD3E500D16A35 /* UIKit.framework */,
+				B166C1D815ABD3E500D16A35 /* Foundation.framework */,
+				B166C1DA15ABD3E500D16A35 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B166C1DC15ABD3E500D16A35 /* Happiness */ = {
+			isa = PBXGroup;
+			children = (
+				B166C1E515ABD3E500D16A35 /* HappinessAppDelegate.h */,
+				B166C1E615ABD3E500D16A35 /* HappinessAppDelegate.m */,
+				B166C1E815ABD3E500D16A35 /* MainStoryboard.storyboard */,
+				B166C1EB15ABD3E500D16A35 /* HappinessViewController.h */,
+				B166C1EC15ABD3E500D16A35 /* HappinessViewController.m */,
+				B166C1DD15ABD3E500D16A35 /* Supporting Files */,
+			);
+			path = Happiness;
+			sourceTree = "<group>";
+		};
+		B166C1DD15ABD3E500D16A35 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B166C1DE15ABD3E500D16A35 /* Happiness-Info.plist */,
+				B166C1DF15ABD3E500D16A35 /* InfoPlist.strings */,
+				B166C1E215ABD3E500D16A35 /* main.m */,
+				B166C1E415ABD3E500D16A35 /* Happiness-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B166C1D115ABD3E500D16A35 /* Happiness */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B166C1F015ABD3E500D16A35 /* Build configuration list for PBXNativeTarget "Happiness" */;
+			buildPhases = (
+				B166C1CE15ABD3E500D16A35 /* Sources */,
+				B166C1CF15ABD3E500D16A35 /* Frameworks */,
+				B166C1D015ABD3E500D16A35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Happiness;
+			productName = Happiness;
+			productReference = B166C1D215ABD3E500D16A35 /* Happiness.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B166C1C915ABD3E500D16A35 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Happiness;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = B166C1CC15ABD3E500D16A35 /* Build configuration list for PBXProject "Happiness" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B166C1C715ABD3E500D16A35;
+			productRefGroup = B166C1D315ABD3E500D16A35 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B166C1D115ABD3E500D16A35 /* Happiness */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B166C1D015ABD3E500D16A35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B166C1E115ABD3E500D16A35 /* InfoPlist.strings in Resources */,
+				B166C1EA15ABD3E500D16A35 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B166C1CE15ABD3E500D16A35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B166C1E315ABD3E500D16A35 /* main.m in Sources */,
+				B166C1E715ABD3E500D16A35 /* HappinessAppDelegate.m in Sources */,
+				B166C1ED15ABD3E500D16A35 /* HappinessViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B166C1DF15ABD3E500D16A35 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B166C1E015ABD3E500D16A35 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B166C1E815ABD3E500D16A35 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B166C1E915ABD3E500D16A35 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B166C1EE15ABD3E500D16A35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B166C1EF15ABD3E500D16A35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B166C1F115ABD3E500D16A35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Happiness/Happiness-Prefix.pch";
+				INFOPLIST_FILE = "Happiness/Happiness-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B166C1F215ABD3E500D16A35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Happiness/Happiness-Prefix.pch";
+				INFOPLIST_FILE = "Happiness/Happiness-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B166C1CC15ABD3E500D16A35 /* Build configuration list for PBXProject "Happiness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B166C1EE15ABD3E500D16A35 /* Debug */,
+				B166C1EF15ABD3E500D16A35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B166C1F015ABD3E500D16A35 /* Build configuration list for PBXNativeTarget "Happiness" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B166C1F115ABD3E500D16A35 /* Debug */,
+				B166C1F215ABD3E500D16A35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B166C1C915ABD3E500D16A35 /* Project object */;
+}
