@@ -1,5 +1,5 @@
 //
-//  HappinessViewController.h
+//  FaceView.h
 //  Happiness
 //
 //  Created by Ian Pytlarz on 7/9/12.
@@ -8,8 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HappinessViewController : UIViewController
-
-@property (nonatomic) int happiness; // 0 is sad, 100 is very happy!
-
+@interface FaceView : UIView
+@property (nonatomic) CGFloat scale;
+-(void)pinch:(UIPinchGestureRecognizer *)gesture;
 @end
