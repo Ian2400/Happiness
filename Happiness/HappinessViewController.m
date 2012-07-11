@@ -23,6 +23,7 @@
     [self.faceView setNeedsDisplay];
 }
 
+//set up a pinch recognizer
 -(void)setFaceView:(FaceView *)faceView
 {
     _faceView = faceView;

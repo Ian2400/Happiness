@@ -71,6 +71,8 @@
 
 #define DEFAULT_SCALE 0.90
 
+//draws my smiley face whenever the happiness changes
+
 - (void)drawRect:(CGRect)rect
 {
     CGContextRef context = UIGraphicsGetCurrentContext();
