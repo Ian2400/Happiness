@@ -12,6 +12,7 @@
 
 @synthesize scale = _scale;
 
+//Defines the default scale as slightly less than 1. Xcode doesn't seem to care for this much...
 #define DEFAULT_SCALE 0.90;
 
 -(CGFloat) scale
