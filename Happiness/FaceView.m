@@ -11,6 +11,7 @@
 @implementation FaceView
 
 @synthesize scale = _scale;
+@synthesize dataSource = _dataSource;
 
 //Defines the default scale as slightly less than 1. Xcode doesn't seem to care for this much...
 #define DEFAULT_SCALE 0.90;
@@ -32,24 +33,25 @@
     }
 }
 
+//changes the scale based on pinching
 -(void)pinch:(UIPinchGestureRecognizer *)gesture
 {
     if((gesture.state == UIGestureRecognizerStateChanged) ||
        (gesture.state == UIGestureRecognizerStateEnded))
     {
         self.scale = gesture.scale;
-        gesture.scale = 1;
     }
+    if(gesture.state == UIGestureRecognizerStateEnded)    gesture.scale = 1;
 }
 
 -(void) setup
 {
-    self.contentMode = UIViewContentModeRedraw;    
+    self.contentMode = UIViewContentModeRedraw;    //when bounds change, redraw
 }
 
 -(void) awakeFromNib
 {
-    [self setup];
+    [self setup]; //get initialized when we leave a storyboard
 }
 
 - (id)initWithFrame:(CGRect)frame
@@ -69,8 +71,6 @@
     CGContextStrokePath(context);
     UIGraphicsPopContext();
 }
-
-#define DEFAULT_SCALE 0.90
 
 //draws my smiley face whenever the happiness changes
 
@@ -119,7 +119,9 @@
     CGPoint mouthCP2 = mouthEnd;
     mouthCP2.x -= MOUTH_H * size * 2/3;
     
-    float smile = 1.0;
+    float smile = [self.dataSource smileForFaceView:self];
+    if(smile < -1) smile = -1;
+    if(smile > 1) smile = 1;
     
     CGFloat smileOffset = MOUTH_SMILE * size * smile;
     mouthCP1.y += smileOffset;
